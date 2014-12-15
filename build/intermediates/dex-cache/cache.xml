@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Rikin\Documents\FixdAppTest1\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-460843325fd7a8990562e09aa275ecc288fd503d.jar"
+        jar="C:\Users\Rikin\Documents\FixdAppTest1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\Users\Rikin\Documents\FixdAppTest1\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-f940395112762676bb4c9ca09c91f41f51f565d7.jar"
+        jar="C:\Users\Rikin\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="C:\Users\Rikin\Documents\FixdAppTest1\app\build\intermediates\pre-dexed\debug\sqliteassethelper-2.0.1-81b3a39ba74b3518efbbb048b636abdd43df72fd.jar"
+        jar="C:\Users\Rikin\Documents\FixdAppTest1\app\libs\sqliteassethelper-2.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f"/>
+    <item
+        dex="C:\Users\Rikin\Documents\FixdAppTest1\app\build\intermediates\pre-dexed\debug\classes-3b1b97c912b34fac3dd3542a8580842606db319e.jar"
+        jar="C:\Users\Rikin\Documents\FixdAppTest1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="C:\Users\Rikin\Documents\FixdAppTest1\app\build\intermediates\pre-dexed\debug\classes-92d6fbfe78544edb6f144f149343fd26c801e327.jar"
+        jar="C:\Users\Rikin\Documents\FixdAppTest1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+
+</pre-dex-items>
