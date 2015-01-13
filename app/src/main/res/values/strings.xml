@@ -16,15 +16,15 @@
     <string name="title_activity_device_list_service">DeviceListService</string>
     <string name="found_devices">Found Devices:</string>
     <string name="engine_status">Engine Status</string>
-    
     <string name="title_activity_trouble_info">TroubleInfo</string>
     <string name="the_dtc"></string>
     <string name="trouble_info_description"></string>
     <string name="status_hint">[Status]</string>
     <string name="title_activity_login_screen">LoginScreen</string>
     <string name="title_activity_more_info">MoreInfoActivity</string>
-    
-	<string name="enter_name">My Name...</string>
-	<string name="login_next">Enter</string>
-	
+    <string name="enter_name">My Name...</string>
+    <string name="login_next">Enter</string>
+    <string name="title_activity_bluetooth_config">BluetoothConfig</string>
+    <string name="hello_world">Hello world!</string>
+
 </resources>

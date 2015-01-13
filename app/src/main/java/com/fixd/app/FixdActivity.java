@@ -25,6 +25,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.client.Firebase;
 import com.fixd.io.DatabaseUtility;
 import com.fixd.io.FixdDatabase;
 import com.fixd.requests.DTCRequest;
@@ -70,6 +71,7 @@ public class FixdActivity extends Activity {
 	private EngineLightRequest milReq; 
 	private Timer taskTimer; // Messing around with this for recurring tasks TODO (rikin) : See if this is best way
 	private String userName, pulledDTC, pulledInfo, threatLevel;
+    private Firebase firebaseRef;
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -83,6 +85,10 @@ public class FixdActivity extends Activity {
 		pulledDTC = "";
 		pulledInfo = "";
 		threatLevel = "gray";
+
+        Firebase.setAndroidContext(this);
+        firebaseRef = new Firebase("https://fixdapp.firebaseIO.com/");
+        firebaseRef.child("user").setValue(userName);
 		
 		// TODO(rikin): move this to styling / create custom UI with this text standard 
 		// This is just a font test
@@ -98,7 +104,8 @@ public class FixdActivity extends Activity {
 		btAdapter = BluetoothAdapter.getDefaultAdapter();
 		
 		connectionChecks();
-	}
+
+    }
 	
 	public void findViews() {
 		checkEngine = (Button) findViewById(R.id.check_engine_button);
@@ -337,7 +344,7 @@ public class FixdActivity extends Activity {
 
 		@Override
 		protected String doInBackground(String... params) {
-			String result = "";
+			String result;
 			
 			dtcReq = new DTCRequest(inStream, outStream);
 			dtcReq.sendMessage();
@@ -353,11 +360,13 @@ public class FixdActivity extends Activity {
 			
 			toastMaker(result + "\n" + rawResult);
 			
-			if(result.equalsIgnoreCase("none")) {
+			if(result.equalsIgnoreCase("U1ATA")) { // U1ATA is the parsed when receives NODATA
 				
 				threatLevel = "green";
 				pulledDTC = "none";
 				pulledInfo = "Good";
+
+                firebaseRef.child("DTC").setValue(pulledDTC);
 				
 			} else {
 				
