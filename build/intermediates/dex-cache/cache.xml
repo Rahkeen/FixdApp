@@ -6,77 +6,91 @@
         jumboMode="false"
         revision="20.0.0"
         sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
-        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2-479f69e20a13a38f856be7e7f60ca6fcb1aa74b5.jar" />
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/jackson-databind-2.2.2-479f69e20a13a38f856be7e7f60ca6fcb1aa74b5.jar" />
     </item>
     <item
-        jar="/home/rikin/Documents/FixdApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jar="/home/rikin/Documents/FixdApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
-        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/debug/classes-dbfb0f78032c76a4f89dbc8f9e6c7cc941a4a0c0.jar" />
-    </item>
-    <item
-        jar="/home/rikin/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
-        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-f63b2740f7c021d32a3cb555ae1ba374c6b2832b.jar" />
-    </item>
-    <item
-        jar="/home/rikin/Documents/FixdApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
-        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/debug/classes-86294a86d41cfb7e20aa52b90fbe47dabbb400ea.jar" />
-    </item>
-    <item
-        jar="/home/rikin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
-        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.2-d89694d5b7000db92e6df01fa91c861867abb709.jar" />
-    </item>
-    <item
-        jar="/home/rikin/Documents/FixdApp/app/libs/sqliteassethelper-2.0.1.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
-        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/debug/sqliteassethelper-2.0.1-44fb54acd3900ccf79ccb1d77bfe2f8b6eeefe66.jar" />
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/internal_impl-21.0.0-e05165cede07160aefed35bd21c9ca7a77fbd1af.jar" />
     </item>
     <item
         jar="/home/rikin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
-        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.2-b14a8635e5c42258ac9c2afe8c2abbbecf251303.jar" />
-    </item>
-    <item
-        jar="/home/rikin/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.10/ddce2c65136c1de8000f8932d8b7ab16d5d336b9/tubesock-0.0.10.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="ddce2c65136c1de8000f8932d8b7ab16d5d336b9">
-        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/debug/tubesock-0.0.10-bbbb2485fe7281963273ddaa9d57374a8a6467d4.jar" />
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/jackson-core-2.2.2-b14a8635e5c42258ac9c2afe8c2abbbecf251303.jar" />
     </item>
     <item
         jar="/home/rikin/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.1.0/38e3b05f2546c0b7956144c3e812867b751dfa91/firebase-client-jvm-2.1.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="38e3b05f2546c0b7956144c3e812867b751dfa91">
-        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/debug/firebase-client-jvm-2.1.0-73e6fde60170df29812d9aa5aadb792c795e71cb.jar" />
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/firebase-client-jvm-2.1.0-73e6fde60170df29812d9aa5aadb792c795e71cb.jar" />
     </item>
     <item
-        jar="/home/rikin/Documents/FixdApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jar="/home/rikin/Documents/FixdApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
-        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-18a172276c0d7f505e2b878328025dffd6ee92a5.jar" />
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/classes-424bec5b7a1fb11a07c5f14d88313d750a8294b3.jar" />
     </item>
     <item
         jar="/home/rikin/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.1.0/d0032e1f7a1fb7aa779e986d719e9c1dc32ba02b/firebase-client-android-2.1.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="d0032e1f7a1fb7aa779e986d719e9c1dc32ba02b">
-        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/debug/firebase-client-android-2.1.0-78871e4d4512ef44d4f6032058dd7b296a882d68.jar" />
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/firebase-client-android-2.1.0-78871e4d4512ef44d4f6032058dd7b296a882d68.jar" />
+    </item>
+    <item
+        jar="/home/rikin/Documents/FixdApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/classes-dbfb0f78032c76a4f89dbc8f9e6c7cc941a4a0c0.jar" />
+    </item>
+    <item
+        jar="/home/rikin/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/support-annotations-21.0.0-0133ceed47736f1b703b8d666d1b8ea9f4bb2070.jar" />
+    </item>
+    <item
+        jar="/home/rikin/Documents/FixdApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/classes-88bda5d7144308ba9f28c2efd74a985c1e89f1a4.jar" />
+    </item>
+    <item
+        jar="/home/rikin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/jackson-annotations-2.2.2-d89694d5b7000db92e6df01fa91c861867abb709.jar" />
+    </item>
+    <item
+        jar="/home/rikin/Documents/FixdApp/app/libs/sqliteassethelper-2.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/sqliteassethelper-2.0.1-44fb54acd3900ccf79ccb1d77bfe2f8b6eeefe66.jar" />
+    </item>
+    <item
+        jar="/home/rikin/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.10/ddce2c65136c1de8000f8932d8b7ab16d5d336b9/tubesock-0.0.10.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="ddce2c65136c1de8000f8932d8b7ab16d5d336b9">
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/tubesock-0.0.10-bbbb2485fe7281963273ddaa9d57374a8a6467d4.jar" />
+    </item>
+    <item
+        jar="/home/rikin/.gradle/caches/modules-2/files-2.1/pt.lighthouselabs.obd/obd-java-api/0.6/8fdf11e22384226391f10e3f4cf401b724dc8154/obd-java-api-0.6.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8fdf11e22384226391f10e3f4cf401b724dc8154">
+        <dex dex="/home/rikin/Documents/FixdApp/app/build/intermediates/pre-dexed/release/obd-java-api-0.6-e2c775950129a187b3c8683de8784913224415cf.jar" />
     </item>
 
 </items>

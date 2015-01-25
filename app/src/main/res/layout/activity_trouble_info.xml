@@ -2,29 +2,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EDEDED"
     android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/info_screen_title"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/top_bar_gray"
+        android:textColor="#666666"
+        android:text="@string/info_screen_title"
+        />
 
     <TextView
         android:id="@+id/the_dtc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
-        android:textSize="40sp"
-        android:background="#CCCCCC"
-        android:textColor="#666666"
-        android:text="@string/the_dtc" 
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/consequences_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:text="@string/consequences_header"
         />
     
     <TextView 
         android:id="@+id/description"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:padding="20dp"
         android:background="#EDEDED"
         android:textSize="20sp"
         android:text="@string/trouble_info_description" 
+        />
+
+    <ImageView
+        android:id="@+id/thumbs_up"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/thumbs_up"
         />
 
 </LinearLayout>
