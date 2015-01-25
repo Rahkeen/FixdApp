@@ -260,6 +260,8 @@ public class FixdActivity extends Activity {
 				message = "Couldn't find device. Make sure you are paired with it!";
 			}
 
+            // hello
+
 			return message;
 		}
 
