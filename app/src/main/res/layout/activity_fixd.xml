@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/engine_status"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="@drawable/top_bar_gray"
+        android:textColor="#666666"
+        android:text="@string/engine_status" 
+        />
+        
+    
+    <TextView 
+        android:id="@+id/connected_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="@string/dashboard"
+		android:textSize="12sp"
+		android:paddingTop="5dp"
+		android:drawableLeft="@drawable/polaroid"
+		android:drawablePadding="5dp"
+		android:textColor="#000"
+		android:gravity="center_vertical|left"
+		android:layout_gravity="center_horizontal|top"
+		/>
+
+    <ImageView
+        android:id="@+id/status_circle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="40dp"
+        android:src="@drawable/green_round"
+        tools:ignore="ContentDescription" />
+    
+    <TextView 
+        android:id="@+id/response_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:background="#EDEDED"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#666666"
+        android:hint="@string/status_hint"
+        android:textColorHint="#445B595A"
+        />
+    
+    <!--<Button-->
+        <!--android:id="@+id/check_engine_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:background="@drawable/button_shape"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="@string/check_engine"-->
+        <!--android:textColor="#FFF" -->
+        <!--/>-->
+    
+</LinearLayout>

@@ -15,9 +15,11 @@
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="title_activity_device_list_service">DeviceListService</string>
     <string name="found_devices">Found Devices:</string>
-    <string name="engine_status">Engine Status</string>
+    <string name="engine_status">Vehicle Condition</string>
     <string name="title_activity_trouble_info">TroubleInfo</string>
     <string name="the_dtc"></string>
+    <string name="consequences_header">Consequences: </string>
+    <string name="info_screen_title">Vehicle Details</string>
     <string name="trouble_info_description"></string>
     <string name="status_hint">[Status]</string>
     <string name="title_activity_login_screen">LoginScreen</string>
@@ -26,5 +28,7 @@
     <string name="login_next">Enter</string>
     <string name="title_activity_bluetooth_config">BluetoothConfig</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fixd_controller">FixdController</string>
+    <string name="title_activity_main">MainActivity</string>
 
 </resources>
