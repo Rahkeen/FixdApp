@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="obd-java-api-0.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pt.lighthouselabs.obd/obd-java-api/0.6/8fdf11e22384226391f10e3f4cf401b724dc8154/obd-java-api-0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pt.lighthouselabs.obd/obd-java-api/0.6/8a2153f0b28ccec38a2109a39b4c145e45cd395e/obd-java-api-0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
